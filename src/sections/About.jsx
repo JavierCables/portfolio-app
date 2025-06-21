@@ -35,7 +35,7 @@ const About = () => {
                         <Card style={{ rotate: "-45deg", top: "50%", left: "0%" }} text="Data Pipelines" containerRef={ grid2container }/>
                         <Card style={{ rotate: "20deg", top: "10%", left: "40%" }} text="NLP" containerRef={ grid2container }/>
                         <Card style={{ rotate: "30deg", top: "70%", left: "70%" }} image="assets/logos/python.svg" containerRef={ grid2container }/>
-                        <Card style={{ rotate: "0deg", top: "70%", left: "25%" }} image="assets/logos/visualstudiocode.svg" containerRef={ grid2container }/>
+                        <Card style={{ rotate: "0deg", top: "70%", left: "25%" }} image="assets/logos/numpy.svg" containerRef={ grid2container }/>
                         <Card style={{ rotate: "-45deg", top: "5%", left: "10%" }} image="assets/logos/jupyternotebook.svg" containerRef={ grid2container }/>
                     </div>
                 </div>

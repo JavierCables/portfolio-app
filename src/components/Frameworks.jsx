@@ -9,6 +9,7 @@ export function Frameworks() {
         "powerbi",
         "python",
         "pytorch",
+        "scikitlearn",
         "seaborn",
         "sqlite",
         "tensorflow",
