@@ -234,36 +234,39 @@ export const mySocials = [
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    title: "Game Developer",
+    job: "Playoffnations",
+    date: "Nov 2023 - Dec 2024",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+      "Programming leadership of two long development projects for the Telefónica and McDonald's brands in Roblox.",
+      "Responsible for the programming of long development project, for the Kellogg's brand in Fortnite.",
+      "Responsible for programming and functionality in five internal projects at Roblox, managing all technical development, from databases and game mechanics to artificial intelligence and customization systems, except art and 3D modeling.",
+      "Roblox Studio | Lua",
+      "Unreal Editor for Fortnite | Verse"
     ],
   },
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
+    title: "Game Programmer",
+    job: "Next Level Studio",
+    date: "Mar 2022 - May 2023",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      "Integral development of the video game Caminos Legendarios for mobile devices as part of a team of four programmers.",
+      "Responsible for software programming and testing prior to final product release.",
+      "Active participation in the product presentation together with the development team in Avila.",
+      "Creation and development of 3 of the 6 chapters of the videogame.",
+      "Unity | C#"
     ],
   },
   {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
+    title: "Student Internship",
+    job: "Electronic Arts",
+    date: "Oct 2022 – Feb 2023",
     contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+      "Development of a university video game prototype in collaboration with a team of six students.",
+      "Coordination and collaboration with five other programmers, ensuring code cohesion and project structure.",
+      "Development of artificial intelligence for enemies.",
+      "Participation in the development of the multiplayer system.",
+      "Unreal Engine 5 | C++"
     ],
   },
 ];
