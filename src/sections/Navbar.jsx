@@ -5,13 +5,13 @@ function Navigation() {
     return(
         <ul className="nav-ul">
         <li className="nav-li">
-            <a className="nav-link" href="#home">Home</a>
+            <a className="nav-link" href="#hero">Home</a>
         </li>
         <li className="nav-li">
             <a className="nav-link" href="#about">About</a>
         </li>
         <li className="nav-li">
-            <a className="nav-link" href="#work">Work</a>
+            <a className="nav-link" href="#projects">Projects</a>
         </li>
         <li className="nav-li">
             <a className="nav-link" href="#contact">Contact</a>
@@ -27,7 +27,7 @@ const Navbar = () => {
             <div className="mx-auto c-space max-w-7xl">
                 <div className="flex items-center justify-between py-2 sm:py-0">
                     <a href="/" className="text-xl font-bold transition-colors text-neutral-400 hover:text-white">
-                        Javi
+                        Javier Cables
                     </a>
                     <button onClick={() => setIsOpen(!isOpen)} className="flex cursor-pointer text-neutral-400 hover:text-white focus:outline-none sm:hidden">
                         <img src={isOpen ? "assets/close.svg" : "assets/menu.svg"} className="w-6 h-6" alt="toggle" />

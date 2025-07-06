@@ -1,4 +1,4 @@
-import {motion, AnimatePressence} from "motion/react"
+import {motion, AnimatePresence} from "motion/react"
 
 const Alert = ({ type, text }) => {
     const alertVariants = {
@@ -8,7 +8,7 @@ const Alert = ({ type, text }) => {
     };
 
     return (
-        <AnimatePressence>
+        <AnimatePresence>
             <motion.div className="fixed z-50 flex items-center justify-center bottom-5 right-5" initial="hidden" animate="visible" exit="exit" variants={ alertVariants } transition={{ duration: 0.3, ease: "easeInOut" }}>
                 <div className={ `p-2 ${
                     type === "danger" ? "bg-red-800" : "bg-royal"
@@ -21,7 +21,7 @@ const Alert = ({ type, text }) => {
                     <p className="mr-2 text-left">{text}</p>
                 </div>
             </motion.div>
-        </AnimatePressence>
+        </AnimatePresence>
     );
 };
 

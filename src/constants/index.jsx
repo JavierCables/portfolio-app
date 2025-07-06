@@ -1,25 +1,28 @@
 export const myProjects = [
   {
     id: 1,
-    title: "Movie Review Sentiment Classifier",
+    title: "Dynamic Difficulty Adaptation in Video Games",
     description:
       <>
-        Built a <span className="text-white">sentiment classification model</span> using the IMDb dataset with over 50,000 movie reviews.
+        Built a <span className="text-white">dynamic difficulty adaptation system</span> for video games using machine learning to personalize challenge based on player performance.
       </>,
     subDescription: [
         <>
-          Applied data preprocessing and exploratory data analysis techniques to understand review distributions and text lengths.
+          Generated a synthetic player dataset and performed exploratory data analysis to understand skill distributions and gameplay metrics.
         </>,
         <>
-          Fine-tuned <span className="text-white">Transformer-based models</span> to classify reviews as positive or negative, achieving <span className="text-white">95% accuracy</span>.
+          Implemented <span className="text-white">KMeans clustering</span> for automated matchmaking and <span className="text-white">Random Forest classification</span> to recommend real-time difficulty adjustments.
         </>,
         <>
-          Utilized <span className="text-white">Python</span>, Hugging Face's datasets library, and <span className="text-white">scikit-learn</span> to evaluate the model with precision, recall, F1-score, and ROC-AUC.
+          Addressed class imbalance with <span className="text-white">SMOTE</span> and validated models using classification metrics and data visualizations.
+        </>,
+        <>
+          Utilized <span className="text-white">Python</span>, <span className="text-white">scikit-learn</span>, <span className="text-white">pandas</span>, and <span className="text-white">matplotlib</span> to develop, analyze, and present the adaptive system.
         </>
     ],
-    href: "",
+    href: "https://nbviewer.org/github/JavierCables/Dynamic-Difficulty-Adaptation-in-Video-Games/blob/main/Dynamic_Difficulty_Adaptation_in_Videogames.ipynb",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/projects/Project1.png",
     tags: [
       {
         id: 1,
@@ -40,6 +43,45 @@ export const myProjects = [
   },
   {
     id: 2,
+    title: "Movie Review Sentiment Classifier",
+    description:
+      <>
+        Built a <span className="text-white">sentiment classification model</span> using the IMDb dataset with over 50,000 movie reviews.
+      </>,
+    subDescription: [
+        <>
+          Applied data preprocessing and exploratory data analysis techniques to understand review distributions and text lengths.
+        </>,
+        <>
+          Fine-tuned <span className="text-white">Transformer-based models</span> to classify reviews as positive or negative, achieving <span className="text-white">95% accuracy</span>.
+        </>,
+        <>
+          Utilized <span className="text-white">Python</span>, Hugging Face's datasets library, and <span className="text-white">scikit-learn</span> to evaluate the model with precision, recall, F1-score, and ROC-AUC.
+        </>
+    ],
+    href: "",
+    logo: "",
+    image: "/assets/projects/Project2.png",
+    tags: [
+      {
+        id: 1,
+        name: "Python",
+        path: "/assets/logos/python.svg",
+      },
+      {
+        id: 2,
+        name: "Jupyter Notebook",
+        path: "/assets/logos/jupyternotebook.svg",
+      },
+      {
+        id: 3,
+        name: "Scikit-Learn",
+        path: "/assets/logos/scikitlearn.svg",
+      },
+    ],
+  },
+  {
+    id: 3,
     title: "Airline Passenger Satisfaction Clustering",
     description:
       "Conducted an unsupervised learning project using real-world airline passenger satisfaction data.",
@@ -56,7 +98,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    image: "/assets/projects/Project3.png",
     tags: [
       {
         id: 1,
@@ -81,7 +123,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "Sales Dashboard Analysis",
     description:
       <>
@@ -92,7 +134,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/assets/projects/Project4.png",
     tags: [
       {
         id: 1,
@@ -101,134 +143,23 @@ export const myProjects = [
       },
     ],
   },
-  {
-    id: 4,
-    title: "C++ Game Engine",
-    description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
-    subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/game-engine.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "C#",
-        path: "/assets/logos/python.svg",
-      },
-      {
-        id: 2,
-        name: ".Net",
-        path: "/assets/logos/pandas.svg",
-      },
-      {
-        id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/numpy.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/matplotlib.svg",
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "WordPress Custom Theme",
-    description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
-    subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "C#",
-        path: "/assets/logos/python.svg",
-      },
-      {
-        id: 2,
-        name: ".Net",
-        path: "/assets/logos/pandas.svg",
-      },
-      {
-        id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/numpy.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/matplotlib.svg",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/elearning.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "C#",
-        path: "/assets/logos/python.svg",
-      },
-      {
-        id: 2,
-        name: ".Net",
-        path: "/assets/logos/pandas.svg",
-      },
-      {
-        id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/numpy.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/matplotlib.svg",
-      },
-    ],
-  },
 ];
 
 export const mySocials = [
   {
-    name: "WhatsApp",
-    href: "",
-    icon: "/assets/socials/whatsApp.svg",
+    name: "GitHub",
+    href: "https://github.com/JavierCables",
+    icon: "/assets/socials/github.svg",
+  },
+    {
+    name: "Email",
+    href: "mailto:javier.cables00@gmail.com",
+    icon: "/assets/socials/email.svg",
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: "https://www.linkedin.com/in/javiercables/",
     icon: "/assets/socials/linkedIn.svg",
-  },
-  {
-    name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
-    icon: "/assets/socials/instagram.svg",
   },
 ];
 
@@ -260,7 +191,7 @@ export const experiences = [
   {
     title: "Student Internship",
     job: "Electronic Arts",
-    date: "Oct 2022 – Feb 2023",
+    date: "Oct 2022 - Feb 2023",
     contents: [
       "Development of a university video game prototype in collaboration with a team of six students.",
       "Coordination and collaboration with five other programmers, ensuring code cohesion and project structure.",
