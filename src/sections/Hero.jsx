@@ -8,7 +8,6 @@ import { easing } from "maath";
 import { Float } from "@react-three/drei";
 import { Suspense } from "react";
 import Loader from "../components/Loader"
-import { AmbientLight } from "three";
 import { Environment } from "@react-three/drei";
 import { EffectComposer, Bloom } from '@react-three/postprocessing';
 
