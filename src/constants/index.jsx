@@ -22,22 +22,22 @@ export const myProjects = [
     ],
     href: "https://nbviewer.org/github/JavierCables/Dynamic-Difficulty-Adaptation-in-Video-Games/blob/main/Dynamic_Difficulty_Adaptation_in_Videogames.ipynb",
     logo: "",
-    image: "/assets/projects/Project1.png",
+    image: "assets/projects/Project1.png",
     tags: [
       {
         id: 1,
         name: "Python",
-        path: "/assets/logos/python.svg",
+        path: "assets/logos/python.svg",
       },
       {
         id: 2,
         name: "Jupyter Notebook",
-        path: "/assets/logos/jupyternotebook.svg",
+        path: "assets/logos/jupyternotebook.svg",
       },
       {
         id: 3,
         name: "Scikit-Learn",
-        path: "/assets/logos/scikitlearn.svg",
+        path: "assets/logos/scikitlearn.svg",
       },
     ],
   },
@@ -61,22 +61,22 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/Project2.png",
+    image: "assets/projects/Project2.png",
     tags: [
       {
         id: 1,
         name: "Python",
-        path: "/assets/logos/python.svg",
+        path: "assets/logos/python.svg",
       },
       {
         id: 2,
         name: "Jupyter Notebook",
-        path: "/assets/logos/jupyternotebook.svg",
+        path: "assets/logos/jupyternotebook.svg",
       },
       {
         id: 3,
         name: "Scikit-Learn",
-        path: "/assets/logos/scikitlearn.svg",
+        path: "assets/logos/scikitlearn.svg",
       },
     ],
   },
@@ -98,27 +98,27 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/Project3.png",
+    image: "assets/projects/Project3.png",
     tags: [
       {
         id: 1,
         name: "Python",
-        path: "/assets/logos/python.svg",
+        path: "assets/logos/python.svg",
       },
       {
         id: 2,
         name: "Scikit-Learn",
-        path: "/assets/logos/scikitlearn.svg",
+        path: "assets/logos/scikitlearn.svg",
       },
       {
         id: 3,
         name: "Matplotlib",
-        path: "/assets/logos/matplotlib.svg",
+        path: "assets/logos/matplotlib.svg",
       },
       {
         id: 4,
         name: "Seaborn",
-        path: "/assets/logos/seaborn.svg",
+        path: "assets/logos/seaborn.svg",
       },
     ],
   },
@@ -134,12 +134,12 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/Project4.png",
+    image: "assets/projects/Project4.png",
     tags: [
       {
         id: 1,
         name: "Power BI",
-        path: "/assets/logos/powerbi.svg",
+        path: "assets/logos/powerbi.svg",
       },
     ],
   },
@@ -149,17 +149,17 @@ export const mySocials = [
   {
     name: "GitHub",
     href: "https://github.com/JavierCables",
-    icon: "/assets/socials/github.svg",
+    icon: "assets/socials/github.svg",
   },
     {
     name: "Email",
     href: "mailto:javier.cables00@gmail.com",
-    icon: "/assets/socials/email.svg",
+    icon: "assets/socials/email.svg",
   },
   {
     name: "Linkedin",
     href: "https://www.linkedin.com/in/javiercables/",
-    icon: "/assets/socials/linkedIn.svg",
+    icon: "assets/socials/linkedIn.svg",
   },
 ];
 

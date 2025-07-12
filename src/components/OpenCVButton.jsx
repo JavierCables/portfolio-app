@@ -3,7 +3,7 @@ import { AnimatePresence, motion } from "motion/react";
 
 const OpenCVButton = () => {
     const openCV = () => {
-        window.open("/assets/pdf/Javier Cables Resume.pdf", "_blank", "noopener,noreferrer");
+        window.open("assets/pdf/Javier Cables Resume.pdf", "_blank", "noopener,noreferrer");
     };
 
     return (

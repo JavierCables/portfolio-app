@@ -6,7 +6,7 @@ import * as THREE from 'three';
 
 export function World(props) {
     const group = useRef()
-    const { nodes, materials, animations } = useGLTF('/models/wonderful_world.glb')
+    const { nodes, materials, animations } = useGLTF('models/wonderful_world.glb')
     const { actions } = useAnimations(animations, group)
 
     useEffect(() => {
