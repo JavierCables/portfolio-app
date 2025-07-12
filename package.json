@@ -2,14 +2,14 @@
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://javiercables.github.io/portfolio",
+  "homepage": "https://javiercables.com",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && echo javiercables.com > dist/CNAME",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
